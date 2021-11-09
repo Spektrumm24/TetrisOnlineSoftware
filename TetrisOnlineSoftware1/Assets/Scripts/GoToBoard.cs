@@ -9,4 +9,8 @@ public class GoToBoard : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+    public void GotoGame()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
