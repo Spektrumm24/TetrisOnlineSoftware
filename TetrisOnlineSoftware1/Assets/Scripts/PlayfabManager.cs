@@ -68,7 +68,7 @@ public class PlayfabManager : MonoBehaviour
     }
     private void Start()
     {
-        Login();
+        //Login();
     }
     void Login()
     {
@@ -82,7 +82,7 @@ public class PlayfabManager : MonoBehaviour
     void OnLogginSuccess(LoginResult result)
     {
         Debug.Log("Successful login/account create");
-        //SceneManager.LoadScene(1);
+        SceneManager.LoadScene(1);
     }
     void OnError(PlayFabError error)
     {

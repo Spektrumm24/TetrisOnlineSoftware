@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class Piece : MonoBehaviour
 {
-    public PlayfabManager playfabManager;
     public Board board { get; private set; }
     public TetrominoData data { get; private set; }
     public Vector3Int[] cells { get; private set; }
@@ -61,6 +60,8 @@ public class Piece : MonoBehaviour
             StopCoroutine(TimeSeconds());
             //Debug.Log("se acabo esta vaina");
             PlayfabManager.instance.SendLeaderboard(Score.score);
+            //ICommand command = new SendLeaderboardCommand(Score.score);
+            //CommandInvoker.addCommand(command);
             SceneManager.LoadScene(2);
         }
     }
