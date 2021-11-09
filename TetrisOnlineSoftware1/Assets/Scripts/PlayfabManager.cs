@@ -14,6 +14,8 @@ public class PlayfabManager : MonoBehaviour
     public Transform rowsParent;
     public static PlayfabManager instance;
 
+    public Text messageText;
+
     public TMP_InputField emailInputRegister;
     public TMP_InputField passwordInputRegister;
     public TMP_InputField usernameInput;
@@ -24,6 +26,11 @@ public class PlayfabManager : MonoBehaviour
 
     public void RegisterButton()
     {
+        if (passwordInputRegister.text.Length < 6)
+        {
+            messageText.text = "Password too short";
+            return;
+        }
         var request = new RegisterPlayFabUserRequest
         {
             Email = emailInputRegister.text,
@@ -86,8 +93,9 @@ public class PlayfabManager : MonoBehaviour
     }
     void OnError(PlayFabError error)
     {
-        Debug.Log("Error while loggin in/creating account");
+        //Debug.Log("Error while loggin in/creating account");
         Debug.Log(error.GenerateErrorReport());
+        messageText.text = error.ErrorMessage;
     }
 
     public void SendLeaderboard(int score)
