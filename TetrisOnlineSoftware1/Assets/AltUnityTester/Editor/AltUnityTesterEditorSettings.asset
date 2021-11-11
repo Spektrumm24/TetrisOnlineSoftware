@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073b5878cbef2364cb928faafba64ca5, type: 3}
+  m_Name: AltUnityTesterEditorSettings
+  m_EditorClassIdentifier: 
+  appendToName: 0
+  MaxLogLength: 100
+  AdbPath: /usr/local/bin/adb
+  IProxyPath: /usr/local/bin/iproxy
+  XcrunPath: /usr/bin/xcrun
+  AutomaticallySign: 0
+  SigningTeamId: 
+  BuildNumber: 0
+  MyTests:
+  - _selected: 0
+    _testName: /Users/user/Documents/GitHub/TetrisOnlineSoftware/TetrisOnlineSoftware1/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _status: 0
+    _isSuite: 1
+    _parentName: 
+    _testCaseCount: 7
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 1
+  - _selected: 0
+    _testName: NewAltUnityTest
+    _status: 0
+    _isSuite: 1
+    _parentName: /Users/user/Documents/GitHub/TetrisOnlineSoftware/TetrisOnlineSoftware1/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _testCaseCount: 7
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 1
+  - _selected: 0
+    _testName: NewAltUnityTest.PruebaIntegrada
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 5.286801
+    path: 
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: NewAltUnityTest.TestTetrisAbj
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.0524414
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: NewAltUnityTest.TestTetrisDer
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 3.5671946
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: NewAltUnityTest.TestTetrisDrop
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.0527422
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: NewAltUnityTest.TestTetrisIzq
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.0729065
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: NewAltUnityTest.TestTetrisRotE
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.0564674
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: NewAltUnityTest.TestTetrisRotQ
+    _status: 1
+    _isSuite: 0
+    _parentName: NewAltUnityTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.1384828
+    path: 
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: /Users/user/Documents/GitHub/TetrisOnlineSoftware/TetrisOnlineSoftware1/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    _status: 0
+    _isSuite: 1
+    _parentName: 
+    _testCaseCount: 0
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: /Users/user/Documents/GitHub/TetrisOnlineSoftware/TetrisOnlineSoftware1/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    _status: 0
+    _isSuite: 1
+    _parentName: 
+    _testCaseCount: 0
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  Scenes:
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/LoginAndRegister.unity
+    _buildIndex: 0
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/Tetris.unity
+    _buildIndex: 1
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/GameOver.unity
+    _buildIndex: 2
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/Leaderboard.unity
+    _buildIndex: 3
+  platform: 2
+  StandaloneTarget: 5
+  RanInEditor: 0
+  RequestSeparator: ;
+  RequestEnding: '&'
+  ServerPort: 13000
+  ScenePathDisplayed: 0
+  InputVisualizer: 1
+  ShowPopUp: 1
+  BuildLocationPath: 
+  LatestInspectorVersion: 1.3.0
+  ShowInsectorPopUpInEditor: 0
